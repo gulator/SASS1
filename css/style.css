@@ -1,0 +1,10 @@
+header {
+  padding: 10px;
+  background-color: aquamarine;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+  header nav {
+    background-color: beige; }
+    header nav li {
+      display: inline-block; }

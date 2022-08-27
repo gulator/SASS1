@@ -1,0 +1,19 @@
+header {
+    padding: 10px;
+    
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+  
+    nav {
+          background-color: beige;
+
+          li{
+            display: inline-block;
+          }
+    }
+  
+  
+  }
+
