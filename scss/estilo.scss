@@ -1,19 +1,26 @@
-header {
-    padding: 10px;
-    
-    background-color: aquamarine;
-    display: flex;
-    align-items: center;
-    justify-content: space-between; 
-  
-    nav {
-          background-color: beige;
+* {
+  margin: 0;
+  padding: 0;
+}
+@import "estilos";
+@import "header";
+@import "main";
+@import "footer";
 
-          li{
-            display: inline-block;
-          }
-    }
-  
-  
-  }
+.imagen {
+  height: 250px;
+  width: 250px;
+  border: 0px solid #8095a0;
+  border-radius: 10px 10px 0px 0px;
+}
+.contenedor {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.socialMedia{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 8px;
 
+}
